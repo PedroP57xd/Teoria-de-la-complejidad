@@ -25,19 +25,21 @@ La evaluación se centra en medir el **tiempo de ejecución** para cada algoritm
 ---
 ## 🚀 Ejecución
 
-La aplicación realiza pruebas de rendimiento sobre cinco algoritmos de ordenamiento clásicos utilizando arreglos generados aleatoriamente. Para asegurar la imparcialidad en la medición, cada algoritmo opera sobre una copia exacta del mismo arreglo base, evitando que uno reciba datos ya ordenados. Los tamaños evaluados fueron: 5.000, 10.000, 30.000, 50.000 y 100.000 elementos.
+La aplicación realiza pruebas de rendimiento sobre cinco algoritmos de ordenamiento principales utilizando arreglos generados aleatoriamente. Para asegurar la imparcialidad en la medición, cada algoritmo opera sobre una copia exacta del mismo arreglo base, evitando que uno reciba datos ya ordenados. Los tamaños evaluados son: 5.000, 10.000, 30.000, 50.000 y 100.000 elementos.
 
-Durante la ejecución, se imprime en consola el tiempo requerido por cada algoritmo para ordenar los arreglos de cada tamaño. Este tiempo se mide en segundos y refleja únicamente el proceso de ordenamiento, sin incluir visualizaciones ni pasos intermedios.
+Durante la ejecución, se imprime en consola el tiempo que necesita cada algoritmo para ordenar los arreglos de cada tamaño. Este tiempo se mide en segundos e imprime únicamente el proceso de ordenamiento, sin incluir visualizaciones ni pasos intermedios.
 
-La salida es precisa, clara y sigue un formato uniforme, facilitando la recolección de datos para análisis comparativos y graficación posterior.
+La salida es precisa, clara y sigue un formato uniforme, facilitando la recolección de datos para análisis comparativos y graficacion de los mismos.
 
 Ejemplo de salida:
+
 ```plaintext
 Tamaño: 5000, Algoritmo: Burbuja Simple, Tiempo: 2.216555 segundos
 Tamaño: 5000, Algoritmo: Selección, Tiempo: 0.759287 segundos
 ...
 ...
 ...
+//Asi sucesivamente con los ditintos tamaños y metodos de ordenamiento
 
 ```
 
@@ -56,7 +58,7 @@ Tamaño: 5000, Algoritmo: Selección, Tiempo: 0.759287 segundos
 ---
 ## 📈 Gráfica Comparativa de Rendimiento
 
-A continuación se presenta una gráfica de líneas que compara el tiempo de ejecución (en segundos) de cada algoritmo de ordenamiento evaluado, en función del tamaño del arreglo.
+A continuación se presenta una gráfica de líneas en la cual se compara el tiempo de ejecución (en segundos) de cada algoritmo de ordenamiento evaluado, en función del tamaño del arreglo.
 
 > Eje X: Tamaño del arreglo  
 > Eje Y: Tiempo de ejecución (s)
@@ -66,40 +68,40 @@ A continuación se presenta una gráfica de líneas que compara el tiempo de eje
 ---
 ## 📸 Evidencias de Resultados
 
-A continuación se muestran las capturas de consola con los tiempos de ejecución obtenidos por cada método de ordenamiento, agrupados por el tamaño del arreglo evaluado.
+A continuación se muestran las capturas de consola con los tiempos de ejecución obtenidos de cada tamaño de arreglo evaluado, con los distintos metodos de ordenamiento.
 
 ### 🧪 Tamaño: 5,000 elementos
 
   
-  ![Tamaño 5000](img/Tamaño5.PNG)
+  ![Tamaño 5000](Tamaño5.PNG)
 
 ---
 
 ### 🧪 Tamaño: 10,000 elementos
 
   
-  ![Tamaño 10000](img/Tamaño10.PNG)
+  ![Tamaño 10000](Tamaño10.PNG)
 
 ---
 
 ### 🧪 Tamaño: 30,000 elementos
 
   
-  ![Tamaño 30000](img/Tamaño30.PNG)
+  ![Tamaño 30000](Tamaño30.PNG)
 
 ---
 
 ### 🧪 Tamaño: 50,000 elementos
 
   
-  ![Tamaño 50000](img/Tamaño50.PNG)
+  ![Tamaño 50000](Tamaño50.PNG)
 
 ---
 
 ### 🧪 Tamaño: 100,000 elementos
 
   
-  ![Tamaño 100000](img/Tamaño100.PNG)
+  ![Tamaño 100000](Tamaño100.PNG)
 
 ---
 ## ✅ Conclusiones
